@@ -34,8 +34,43 @@
 
 <body>
 
-    <section id="first-section">
-        <div class="container-fluid">
+    <section id="first-section ">
+        <nav class="navbar fixed-top ">
+            <div class="container-fluid bg-transparent ">
+              <a class="navbar-brand" href="#">Realty Co.</a>
+              <div><a href=""><i class="fa-brands fa-square-facebook p-2 text-success"></i></a> <a href="">    <i class="fa-brands fa-square-twitter p-2 text-success"></i></a> <a href=""><i class="fa-brands fa-square-instagram p-2 text-success"></i></a></div>
+              
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Realty Co.</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about-section">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#properties-section">Properties</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                  </ul>
+                 
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!-- <div class="container-fluid">
             <nav class="navbar navbar-expand-lg">
                 <h1 class="navbar-brand text-light">Kit Ocampo Realty Co.</h1>
                 <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
@@ -69,27 +104,38 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
 
     </section>
 
+    <section>
+<div class="container-fluid bg-light">    <div class="row">
+    <h1 class="best-place text-dark">The Best Place is<br>Right Here </h1>
+    <div class="div-home">
+        <button class="btn btn-outline-success list-home"><i class="fa-solid fa-house"></i></i> LIST HOME</button>
+        <button class="btn btn-success list-home"><i class="fa-solid fa-house"> </i> BUY HOUSE</button>
+    </div>
+
+</div></div>
+
+
+      
+    </section>
+
     <!-- about section -->
-    <section id="about-section">
-        <div class="container">
-            <div class="row about-section">
+    <section id="about-section ">
+        <div class="container-fluid bg-light">
+            <div class="row about-section ">
                 <div class="col-lg-4">
                     <h1 class="about-us">About Us</h1>
                 </div>
-                <div class="col-lg-4"><img class="img-5" src="./assets/assets/image/New Project (5).png" alt="">
+                <div class="col-lg-3"><img class="img-5" src="./assets/assets/image/New Project (5).png" alt="">
                 </div>
-                <div class="col-lg-4 ">
-                    <p class="about-p">Our mission is to provide exceptional service and high-quality products to our
-                        clients. We strive to understand the unique needs of each client and tailor our solutions to
-                        meet those needs. Our vision is to be the premier provider of our industry, known for our
-                        innovation, integrity, and commitment to our clients. We have a strong commitment to excellence
-                        and a proven track record of success. Our team is highly skilled and dedicated to delivering the
-                        best possible experience for our clients. We believe in putting our clients first and building
-                        long-term, trusting relationships with them.</p>
+                <div class="col-lg-5 ">
+                    <p class="about-p">"Our vision is to be the leading real estate company in the industry, providing exceptional service to our clients and creating long-lasting relationships.
+
+                        Our mission is to make the process of buying, selling, or renting a property as seamless and stress-free as possible for our clients. We strive to provide our clients with the best possible service, whether they are first-time home buyers or experienced investors. We are committed to providing our clients with the most accurate 
+                        and up-to-date information, and we pride ourselves on being available to assist our clients whenever they need us.".</p>
                 </div>
             </div>
 
@@ -102,7 +148,7 @@
     <section id="properties-section">
 
 
-        <div class="container">
+        <div class="container-fluid bg-light">
             <h2 class="pro-sale">Properties <span class="forsale text-success">For Sale</span> </h2>
             <div class="row properties-section ">
                 <div class="col-lg-4 col-md-6 img-properties">
