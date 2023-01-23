@@ -116,6 +116,7 @@ h1.best-place{
     padding-right: 10px;
     padding-top: 100px;
     color: rgb(78, 77, 77);
+    letter-spacing: .5px;
 }
 img.img-5{
 margin-top: 50px;
@@ -149,6 +150,7 @@ img.img-5{
     font-size: 14px;
     display: block; 
     margin: 0 auto; 
+    max-width: 100%;
 }
 
 }
