@@ -16,7 +16,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 
- 
+
 }
 
 /* navbar */
@@ -30,17 +30,17 @@ body{
 
 a{
     text-align: center;
-    
+
 }
 a.nav-link{
-   
+
     padding-top: 40px;
     margin: 0 10px;
-   
+
 }
 h1.navbar-brand{
     font-size: 28px;
-  
+
     padding-top: 40px;
 }
 h1.best-place{
@@ -53,7 +53,7 @@ h1.best-place{
     margin: 100px 5px;
     font-size: smaller;
 
-  
+
 }
 
 
@@ -66,17 +66,17 @@ a.nav-link{
 }
 .div-home{
     text-align: center;
-  
+
 }
 .list-home{
     font-size: small;
 }
 h1.navbar-brand{
-    
+
         font-size: 20px;
 }
 h1.best-place{
-  
+
     font-size: 38px;
 }
 
@@ -93,20 +93,20 @@ h1.best-place{
     }
     .div-home{
         text-align: center;
-      
+
     }
     .list-home{
         font-size: xx-small;
     }
     h1.navbar-brand{
-        
+
             font-size: 16px;
     }
     h1.best-place{
-  
+
         font-size: 30px;
     }
-    
+
     }
 
 /* about section */
@@ -125,7 +125,7 @@ margin-top: 50px;
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     text-align: center;
-  
+
 }
 .about-us{
     padding-top: 50px;
@@ -144,16 +144,16 @@ ul{
     padding-bottom: 10px;
 }
 img.img-5{
-    display: block; 
-    margin: 0 auto; 
+    display: block;
+    margin: 0 auto;
     width: 80%;
     height: auto;
 }
 .about-p{
     padding-top: 20px;
     font-size: 14px;
-    display: block; 
-    margin: 0 auto; 
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
 }
 
@@ -167,41 +167,41 @@ img.img-5{
         font-size: 20px;
     }
     img.img-5{
-        display: block; 
-        margin: 0 auto; 
+        display: block;
+        margin: 0 auto;
         width: 90%;
         height: auto;
     }
     .about-p{
         padding: 20px 50px 10px 50px;
-       
+
         font-size: 10px;
-        display: block; 
-        margin: 0 auto; 
+        display: block;
+        margin: 0 auto;
     }
-    
+
     }
-    
+
 /* for sale section */
 
 .img-for-sale{
     width: 100%;
     height: auto;
-display: block; 
-        margin: 0 auto; 
+display: block;
+        margin: 0 auto;
         box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
         0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-     
+
 }
 .img-properties{
     padding: 20px;
-  
-   
+
+
 }
 .h6-txt{
- 
-    display: block; 
-    margin: 0 auto; 
+
+    display: block;
+    margin: 0 auto;
 }
 .pro-sale{
     padding-top: 50px;
@@ -227,3 +227,15 @@ display: block;
 
 /* testemonial section */
 
+.carousel-item{
+   border: 1px solid rgb(218, 215, 215);
+
+}
+
+@media(max-width: 576px){
+    .carousel-img{
+       width: 100%;
+       height: auto;
+    }
+
+}
