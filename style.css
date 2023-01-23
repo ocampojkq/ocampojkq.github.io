@@ -1,9 +1,5 @@
 
-/* try responsive */
-.responsive{
-    width: 100%;
-    height: auto;
-}
+
 
 
 
@@ -197,7 +193,9 @@ display: block;
     padding: 20px;
 
 
+
 }
+
 .h6-txt{
 
     display: block;
@@ -208,6 +206,12 @@ display: block;
 }
 .forsale{
     color: rgb(96, 95, 95);
+}
+@media(max-width: 768px){
+ul{
+    font-size: 14px;
+}
+
 }
 
 
@@ -221,14 +225,32 @@ display: block;
     font-size: 20px;
     text-align: center;
 }
-
+ul{
+    font-size: 12px;
+}
 
 }
 
 /* testemonial section */
 
+.client-test{
+    margin: auto;
+    width: 50%;
+    padding-top: 30%;
+
+
+}
 .carousel-item{
    border: 1px solid rgb(218, 215, 215);
+
+}
+
+@media(max-width: 768px){
+.carousel-img{
+
+}
+
+
 
 }
 
@@ -237,5 +259,14 @@ display: block;
        width: 100%;
        height: auto;
     }
+  .p-test{
+    font-size: 10px;
+  }
+  .client-test{
+
+    font-size: 20px;
+    padding-top: 10%;
+
 
 }
+}    
