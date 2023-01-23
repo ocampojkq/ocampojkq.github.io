@@ -19,6 +19,11 @@ body{
  
 }
 
+/* navbar */
+.offcanvas{
+    max-width: 50%;
+}
+
 .container-fluid{
     padding: 2% 10% 2% 10%;
 }
