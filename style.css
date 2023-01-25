@@ -237,7 +237,7 @@ ul{
 
 .client-test{
     margin: auto;
-    width: 50%;
+    width: 100%;
     padding-top: 30%;
 
 
@@ -245,6 +245,9 @@ ul{
 .carousel-item{
    border: 1px solid rgb(218, 215, 215);
 
+}
+.carousel-img{
+    width: 600px;
 }
 
 
