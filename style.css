@@ -4,7 +4,7 @@
 
 
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #first-section{
@@ -245,14 +245,6 @@ ul{
 
 }
 
-@media(max-width: 768px){
-.carousel-img{
-
-}
-
-
-
-}
 
 @media(max-width: 576px){
     .carousel-img{
