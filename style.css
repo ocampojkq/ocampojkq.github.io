@@ -9,6 +9,15 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+#myVideo {
+   
+    /* right: 0;
+    bottom: 0;
+    min-width: 200%; 
+    height: 1000px; */
+  
+  }
+
 #first-section{
     background-image: url("./assets/assets/image/New\ Project\ \(15\).png");
     background-repeat: no-repeat;
