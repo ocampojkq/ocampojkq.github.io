@@ -9,14 +9,6 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-#myVideo {
-   
-    /* right: 0;
-    bottom: 0;
-    min-width: 200%; 
-    height: 1000px; */
-  
-  }
 
 #first-section{
     background-image: url("./assets/assets/image/New\ Project\ \(15\).png");
@@ -64,6 +56,29 @@ h1.best-place{
 }
 .see-more{
     font-size: smaller;
+}
+
+#player-overlay {
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 999;
+  }
+  
+  video {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+@media(max-witdh: 768px){
+    .video{
+        max-width: 768px;
+        height: 300px;
+    }
 }
 
 
