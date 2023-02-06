@@ -19,9 +19,9 @@ body{
     max-width: 50%;
 }
 
-.container-fluid{
-   
-}
+/* .container-fluid{
+    padding: 2% 10% 2% 10%;
+} */
 
 a{
     text-align: center;
