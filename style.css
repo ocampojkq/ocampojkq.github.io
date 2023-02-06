@@ -1,22 +1,18 @@
 
 html{
     scroll-behavior: smooth;
+   
 }
 
 
 
 body{
     font-family: 'Roboto', sans-serif;
+   
 }
 
 
-#first-section{
-    background-image: url("./assets/assets/image/New\ Project\ \(15\).png");
-    background-repeat: no-repeat;
-    background-size: cover;
 
-
-}
 
 /* navbar */
 .offcanvas{
@@ -24,7 +20,7 @@ body{
 }
 
 .container-fluid{
-    padding: 2% 10% 2% 10%;
+   
 }
 
 a{
@@ -42,21 +38,9 @@ h1.navbar-brand{
 
     padding-top: 40px;
 }
-h1.best-place{
-    padding-top: 100px;
-    text-align: center;
-    font-size: 46px;
-}
-
-.list-home{
-    margin: 100px 5px;
-    font-size: smaller;
 
 
-}
-.see-more{
-    font-size: smaller;
-}
+
 
 #player-overlay {
    
