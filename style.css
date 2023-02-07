@@ -346,4 +346,13 @@ input::placeholder {
 textarea::placeholder {
     font-size: 12px;
 }
+.h1-elegant{
+    font-size: 20px;
+}
+.h3-elegant{
+    font-size: 16px;
+}
+.p-elegant{
+    font-size: 12px;
+}
 }
