@@ -52,7 +52,8 @@ body{
   }
 .container-fluid{
     /* padding: 2% 10% 2% 10%;  */
-    padding: 1% 5% 1% 5%;
+    /* padding: 1% -1% 1% -1%; */
+  
 }
 
 a{
@@ -81,7 +82,7 @@ li {
 
 
 
-#player-overlay {
+/* #player-overlay {
    
     top: 0;
     left: 0;
@@ -95,7 +96,7 @@ li {
     display: block;
     width: 100%;
     height: 100%;
-  }
+  } */
 
   .btn{
     color: #055380;
