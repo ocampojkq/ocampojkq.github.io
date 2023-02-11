@@ -218,31 +218,12 @@ img.img-5{
     margin: 0 auto;
     max-width: 100%;
 }
+ul{
+    font-size: 14px;
+}
 
 }
-@media(max-width: 576px){
 
-    .about-us{
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 20px;
-    }
-    img.img-5{
-        display: block;
-        margin: 0 auto;
-        width: 90%;
-        height: auto;
-    }
-    .about-p{
-        padding: 20px 50px 10px 50px;
-
-        font-size: 10px;
-        display: block;
-        margin: 0 auto;
-    }
-
-    }
 
 /* for sale section */
 
@@ -273,29 +254,11 @@ display: block;
 .forsale{
     color: rgb(96, 95, 95);
 }
-@media(max-width: 768px){
-ul{
-    font-size: 14px;
-}
-
-}
 
 
 
-@media(max-width: 576px){
-.img-for-sale{
-   width: 100%;
-   height: auto;
-}
-.pro-sale{
-    font-size: 20px;
-    text-align: center;
-}
-ul{
-    font-size: 12px;
-}
 
-}
+
 
 /* testemonial section */
 
@@ -315,24 +278,39 @@ ul{
 }
 
 
-@media(max-width: 576px){
-    .carousel-img{
-       width: 100%;
-       height: auto;
-    }
-  .p-test{
-    font-size: 10px;
-  }
-  .client-test{
-
-    font-size: 20px;
-    padding-top: 10%;
-
-
-}
-}  
 
 @media (max-width: 576px){
+    .about-us{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    img.img-5{
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+    }
+    .about-p{
+        padding: 20px 50px 10px 50px;
+
+        font-size: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .img-for-sale{
+        width: 100%;
+        height: auto;
+     }
+     .pro-sale{
+         font-size: 20px;
+         text-align: center;
+     }
+     ul{
+         font-size: 12px;
+     }
 
 .contact{
     font-size: 20px;
@@ -354,5 +332,19 @@ textarea::placeholder {
 }
 .p-elegant{
     font-size: 12px;
+}
+.carousel-img{
+    width: 100%;
+    height: auto;
+ }
+.p-test{
+ font-size: 10px;
+}
+.client-test{
+
+ font-size: 20px;
+ padding-top: 10%;
+
+
 }
 }
