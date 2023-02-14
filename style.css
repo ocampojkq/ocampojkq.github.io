@@ -350,8 +350,13 @@ textarea::placeholder {
 }
 }
 
-/* social media icon */
+.modal-dialog {
+    height: 80% !important;
+    padding-top:10%;
+  }
+  
 
+ 
 
 
 
