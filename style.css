@@ -66,6 +66,19 @@ a.nav-link{
     margin: 0 10px;
 
 }
+div.dropdown{
+    padding-top: 40px;
+    margin: 0 10px;
+  text-transform: none;
+}
+a.dropdown-toggle{
+    text-decoration: none;
+}
+
+a.btn{
+    padding-top: 40px;
+    margin: 0 10px;
+}
 h1.navbar-brand{
     font-size: 28px;
 
@@ -149,7 +162,13 @@ h1.best-place{
     }
     a.nav-link{
         padding: 8px;
-        font-size: 12px;
+        font-size: 14px;
+    }
+    a.dropdown-toggle{
+        font-size: 14px;
+    }
+    a.dropdown-item{
+        font-size: 14px;
     }
     .div-home{
         text-align: center;
@@ -340,6 +359,9 @@ textarea::placeholder {
 }
 .p-elegant{
     font-size: 12px;
+}
+.h5-elegant{
+    font-size: 14px;
 }
 .carousel-img{
     width: 100%;
