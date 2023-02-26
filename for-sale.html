@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real State</title>
+    <title>OcampoPadawagRealty</title>
     <!-- bootstrap -->
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <!-- google fonts -->
@@ -19,22 +19,30 @@
         rel="stylesheet">
     <!-- font awsome -->
     <script src="https://kit.fontawesome.com/498e117b59.js" crossorigin="anonymous"></script>
-
+    
     <link rel="stylesheet" href="style.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
 
 
 </head>
 
 <body>
 
+    
     <section id="first-section " class="bg-light">
 
-        <nav class="navbar navbar-expand-lg d-none d-lg-block ">
+        <nav class="navbar navbar-expand-lg d-none d-lg-block " 
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="assets/image/OPRlogo.png" alt=""></a>
+                <a class="navbar-brand ms-5" href="index.html"><img src="assets/image/OPRlogo.png" alt=""></a>
 
                 <div class="inline-nav" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav gap-5 me-5">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index.html" style="color: #055380;"><i
                                     class="fa-solid fa-house fa-xl fa-beat"></i> Home</a>
@@ -44,21 +52,18 @@
                             <a class="nav-link" href="forsale.html" style="color: #055380;"><i
                                     class="fa-solid fa-building fa-xl fa-beat"></i> Properties</a>
                         </li> -->
-                        <div class="dropdown">
-                            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false" style="color: #055380;">
-                                <i class="fa-solid fa-building fa-xl fa-beat"></i> Properties
+                        <div class="dropdown z-1">
+                            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #055380;">
+                                <i
+                                class="fa-solid fa-building fa-xl fa-beat" ></i> Properties
                             </a>
-
+                          
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="for-sale.html" style="color: #055380;">For Sale</a>
-                                </li>
-                                <li><a class="dropdown-item" href="for-lease.html" style="color: #055380;">For Lease</a>
-                                </li>
-                                <li><a class="dropdown-item" href="for-rent.html" style="color: #055380;">For Rent</a>
-                                </li>
+                              <li><a class="dropdown-item" href="for-sale.html" style="color: #055380;">For Sale</a></li>
+                              <li><a class="dropdown-item" href="for-lease.html" style="color: #055380;">For Lease</a></li>
+                              <li><a class="dropdown-item" href="for-rent.html" style="color: #055380;">For Rent</a></li>
                             </ul>
-                        </div>
+                          </div>
 
                         <li class="nav-item">
                             <a class="nav-link" href="about-us.html" style="color: #055380;"><i
@@ -73,42 +78,38 @@
                 </div>
             </div>
         </nav>
-        <div class="container-fluid bg-light"> <a class="btn btn-default btn-lg d-xl-none d-xl-block"
+        <div class="container-fluid bg-light" > 
+            <a class="btn btn-default btn-lg d-xl-none d-xl-block"
                 data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                 <span class="glyphicon glyphicon-nav" aria-hidden="true"></span>
             </a>
             <a href="index.html"><img src="assets/image/OPRlogo.png" class="ms-5 d-xl-none d-xl-block" alt=""
-                    style="height: 60px; width: 120px;"></a>
+                style="height: 60px; width: 120px;"></a>
             <div class="offcanvas offcanvas-start  " tabindex="-1" id="offcanvasExample"
                 aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title text-center" id="offcanvasExampleLabel"><a href="index.html"><img
-                                src="assets/image/OPRlogo.png" alt="" style="height: 60px; width: 120px;"></a></h5>
+                    <h5 class="offcanvas-title text-center" id="offcanvasExampleLabel"><a href="index.html"><img src="assets/image/OPRlogo.png" alt="" style="height: 60px; width: 120px;"></a></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html"
-                                style="color: #055380; text-align: left;"><i class="fa-solid fa-house fa-beat"></i>
-                                Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html" style="color: #055380; text-align: left;"><i
+                                    class="fa-solid fa-house fa-beat"></i> Home</a>
                         </li>
                         <div class="dropdown" style="padding: 8px; margin: 0 10px;">
-                            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false" style="color: #055380;">
-                                <i class="fa-solid fa-building fa-beat"></i> Properties
+                            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #055380;">
+                                <i
+                                class="fa-solid fa-building fa-beat" ></i> Properties
                             </a>
-
+                          
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="for-sale.html" style="color: #055380;">For Sale</a>
-                                </li>
-                                <li><a class="dropdown-item" href="for-lease.html" style="color: #055380;">For Lease</a>
-                                </li>
-                                <li><a class="dropdown-item" href="for-rent.html" style="color: #055380;">For Rent</a>
-                                </li>
+                              <li><a class="dropdown-item" href="for-sale.html" style="color: #055380;">For Sale</a></li>
+                              <li><a class="dropdown-item" href="for-lease.html" style="color: #055380;">For Lease</a></li>
+                              <li><a class="dropdown-item" href="for-rent.html" style="color: #055380;">For Rent</a></li>
                             </ul>
-                        </div>
-
+                          </div>
+               
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about-us.html" style="color: #055380; text-align: left;"><i
@@ -979,41 +980,41 @@
     </section>
 
 
-    <!-- Contact Section -->
-    <section id="contact-section">
-        <div class="container-fluid bg-light">
-            <div class="row">
-                <div class="col-lg-4 text-center">
-                    <h1 class="contact text-center pt-5">Contact Us</h1>
-                </div>
-                <div class="col-lg-4 text-center pt-3">
-                    <img src="assets/image/business card back.png" alt="" style="width: 300px; height: 200px;">
-                    <!-- <p class="contact pt-5">Main Office
-                        1234 Ecoland st
-                        Davao City</p>
-                    <p class="contact">Tel: +639989908660
-
-                    </p>
-                    <p class="contact"> Email: ocampo.jessekit1@gmail.com</p> -->
-
-                </div>
-                <div class="col-lg-4 text-center pt-5">
-                    <a href="mailto:ocampopdawagrealty@gmail.com"><i
-                            class="fa-solid fa-envelope fa-beat  fa-xl p-3 footer-icon"></i></a>
-                    <a href="https://web.facebook.com/homebuyersphilippines"><i
-                            class="fa-brands fa-square-facebook fa-beat fa-xl p-2 footer-icon"></i></a>
-                    <a href="https://web.facebook.com/homebuyersphilippines">
-                        <i class="fa-brands fa-facebook-messenger fa-beat fa-xl p-2 footer-icon"></i></a>
-                    <a href="https://instagram.com">
-                        <i class="fa-brands fa-square-instagram fa-beat fa-xl p-2 footer-icon"></i></a>
+   <!-- Contact Section -->
+   <section id="contact-section">
+    <div class="container-fluid bg-light pt-5">
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <h1 data-aos="fade-right"
+                data-aos-easing="linear"
+                data-aos-duration="1500" class="contact text-center pt-5">Contact Us</h1>
+            </div>
+            <div class="col-lg-4 text-center pt-3">
+                <img data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1500" src="assets/image/business card back.png" alt="" style="width: 300px; height: 200px;">
 
 
+            </div>
+            <div class="col-lg-4 text-center pt-5" data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+                <a href="mailto:ocampopdawagrealty@gmail.com"><i
+                        class="fa-solid fa-envelope fa-beat  fa-xl p-3 footer-icon"></i></a>
+                <a href="https://web.facebook.com/homebuyersphilippines"><i
+                        class="fa-brands fa-square-facebook fa-beat fa-xl p-2 footer-icon"></i></a>
+                <a href="https://web.facebook.com/homebuyersphilippines">
+                    <i class="fa-brands fa-facebook-messenger fa-beat fa-xl p-2 footer-icon"></i></a>
+                <a href="https://instagram.com">
+                    <i class="fa-brands fa-square-instagram fa-beat fa-xl p-2 footer-icon"></i></a>
 
 
-                </div>
+
+
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- footer section -->
     <section>
@@ -1031,7 +1032,8 @@
                     style="color: #055380;"></i>Copyright 2023. All rights Reserved</div>
         </div>
     </section>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>
